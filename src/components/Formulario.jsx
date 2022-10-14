@@ -255,7 +255,7 @@ export const Formulario = ({pacientes, setPacientes, paciente, setPaciente, diag
             {
               paciente.id && <input type="button" className='bg-red-800 mx-2 w-1/3 p-3 uppercase text-white font-bold cursor-pointer hover:bg-red-900 rounded-md ' onClick={handleCancelar} value='cancelar'/>
             }
-            <input type="button" className='bg-green-600 w-full p-3 uppercase text-white font-bold cursor-pointer hover:bg-green-700 rounded-md ' value="Diagnosticar"/> 
+            <input type="submit" className='bg-green-600 w-full p-3 uppercase text-white font-bold cursor-pointer hover:bg-green-700 rounded-md ' value="Diagnosticar"/> 
           </div>
         </form>
       )

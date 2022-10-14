@@ -10,7 +10,6 @@ export const Paciente = ({paciente, setPaciente, eliminarPaciente, diagnosticoSt
   }
 
   const handleDiagnostico = () => {
-    console.log(diagnosticoStatus)
    
       setPaciente(paciente)
       setDiagnosticoStatus(true)
